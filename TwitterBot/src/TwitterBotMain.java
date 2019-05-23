@@ -3,15 +3,12 @@
  * 
  * MARKOV ORDER (line 30) = 2
  * 
- * Notes: - The hashtag okay is being used to generate tweets. 
- * 	      - The bot USUALLY generates a pretty clear message, but sometimes make no sense
- * 			so try a couple times!!
- * 		  - I commented out the google search text finder and also the novel that was attempting to be brought in.
- * 		  - I also commented out the information (tweets) being printed to the screen
- * 		  - The only thing that prints is the tweet and the amount of characters in the tweet
- * 		  - If the tweet is over 280 characters, it will not attempt to post the tweet and stop the program
- * 		  - The only thing i fixed up in the markovGen class is the generate function. This is so it checks for a period and if found, ends the generation of the tweet.
- * 		  - Added two functions to main, one fixes the words of beg/end symbols and the other pre-process the data
+ * Notes: - I commented out the google search text finder and also the novel that was attempting to be brought in.
+ *     - I also commented out the information (tweets) being printed to the screen
+ *     - The only thing that prints is the tweet and the amount of characters in the tweet
+ *     - If the tweet is over 280 characters, it will not attempt to post the tweet and stop the program
+ *     - The only thing i fixed up in the markovGen class is the generate function. This is so it checks for a period and if found, ends the generation of the tweet.
+ *     - Added two functions to main, one fixes the words of beg/end symbols and the other pre-process the data
 */
 
 //Imports
